@@ -8,4 +8,4 @@ jobs:
       - uses: actions/checkout@1
       - uses: ./action-a
       with:
-        MY_NAME: "Mona"
+        MY_NAME: "Mona "
