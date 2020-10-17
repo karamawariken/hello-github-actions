@@ -1,0 +1,11 @@
+name: A workdflow for my Hello World file
+on: push
+jobs:
+  build:
+    name: Hello world action
+    runs-on: ubuntu-lastest
+    steps:
+      - uses: actions/checkout@1
+      - uses: ./action-a
+      with:
+        MY_NAME: "Mona"
